@@ -54,8 +54,8 @@ void initItems() {
     int index=clouds.size()+i;
     PImage big=bigs.get(index); 
     PImage small=smalls.get(index); 
-    Item item=new Item(width/2+((i)%3)*width/6+width/24, (i/3)*height/+100, small.width, small.height, big, small, false);
-    items.add(item );
+    Item item=new Item(width/2+((i)%3)*width/6+width/24, (i/3)*height/4+50, small.width, small.height, big, small, false);
+    items.add(item);
   }
 }
 
